@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<br>
+    <header class="header">
+        <h1 class="header-title">Survey Form</h1>
+    </header>
+    <!-- School Name -->
+    <div class="container">
+        <div class="section-title">
+            <input type="text" name="School-name" placeholder="School Name" class="school-input">
+        </div>
+        <!-- Student Name Div -->
+       
+            <h3>Student Name</h3>
+        <div class="student-name-div">
+            <input type="text" name="fname" placeholder="First name">
+           
+    
+            <input type="text" name="lname" placeholder="Last name">
+            
+        </div>
+        <!-- date div -->
+        
+            <h3>Date Of Birth</h3>
+        <div class="date-div">
+            <input type="date" name="date" value="1998/10/15"  >
+    
+        </div>
+        <!-- duration of Student studies      -->
+        <div class="date-div">
+            <h3>How long have you been a student here?</h3>
+            <select name="duration" id="duration" placeholder="Please select">
+                <option value="Empty">Please Select</option>
+                <option value="Less than a Month">Less than a Month</option>
+                <option value="1-6 months">1-6 months</option>
+                <option value="6 months to 1 year">6 months to 1 year</option>
+                <option value="1-3 Years">1-3 Years</option>
+                <option value="More than 3 years">More than 3 years</option>
+    
+            </select>
+        </div>
+    </div>
+    
+
+    <h2>Please rate the following aspects of your education</h2>
+<!-- Curriculum and classes table  -->
+    <h3 class="heading-style">Curriculum and classes for the term</h3>
+    <table>
+        <tbody>
+            <thead>
+                <tr>
+                    <th class="none"><!-- Intentially left blank--></th>
+                    <th>Strongly Disagree</th>
+                    <th>Disagree</th>
+                    <th>Neutral</th>
+                    <th>Agree</th>
+                    <th>Strongly Agree</th>
+                </tr>
+
+            </thead>
+            
+            <tr>
+                <th>The class descriptions accurately described the content.</th>
+                <td>
+                    <label class="container">
+                        <input type="radio"  name="radio">
+                        <span class="checkmark"></span>
+                      </label>
+                    <!-- >>>>>>>>>>>>>>>>> -->
+                    
+                </td>
+                <td>
+                    <input type="radio" name="Disagree" id="Disagree">
+                </td>
+                <td>
+                    <input type="radio" name="Neutral" id="Neutral">
+                </td>
+                <td>
+                    <input type="radio" name="Agree" id="Agree">
+                </td>
+                <td>
+                    <input type="radio" name="Strongly Agree" id="Strongly Agree">
+                </td>
+                
+            </tr>
+            <tr>
+                <th>I was academically prepared for the classes.</th>
+                <td>
+                    
+                        <input type="radio" name="radioGroup" id="radio2" class="styled-radio">
+                       
+                
+                </td>
+                <td>
+                    <input type="radio" name="Disagree" id="Disagree">
+                </td>
+                <td>
+                    <input type="radio" name="Neutral" id="Neutral">
+                </td>
+                <td>
+                    <input type="radio" name="Agree" id="Agree">
+                </td>
+                <td>
+                    <input type="radio" name="Strongly Agree" id="Strongly Agree">
+                </td>
+                
+            </tr>
+            <tr>
+                <th>The class sizes were appropriate.</th>
+                <td>
+                    <input type="radio" name="Strongly Disagree" id="Strongly Disagree">
+                </td>
+                <td>
+                    <input type="radio" name="Disagree" id="Disagree">
+                </td>
+                <td>
+                    <input type="radio" name="Neutral" id="Neutral">
+                </td>
+                <td>
+                    <input type="radio" name="Agree" id="Agree">
+                </td>
+                <td>
+                    <input type="radio" name="Strongly Agree" id="Strongly Agree">
+                </td>
+                
+            </tr>
+            <tr>
+                <th>The classes started and ended on time.	</th>
+                <td>
+                    <input type="radio" name="Strongly Disagree" id="Strongly Disagree">
+                </td>
+                <td>
+                    <input type="radio" name="Disagree" id="Disagree">
+                </td>
+                <td>
+                    <input type="radio" name="Neutral" id="Neutral">
+                </td>
+                <td>
+                    <input type="radio" name="Agree" id="Agree">
+                </td>
+                <td>
+                    <input type="radio" name="Strongly Agree" id="Strongly Agree">
+                </td>
+                
+            </tr>
+            <tr>
+                <th>The classes increased my knowledge of the subject matter.	</th>
+                <td>
+                    <input type="radio" name="Strongly Disagree" id="Strongly Disagree">
+                </td>
+                <td>
+                    <input type="radio" name="Disagree" id="Disagree">
+                </td>
+                <td>
+                    <input type="radio" name="Neutral" id="Neutral">
+                </td>
+                <td>
+                    <input type="radio" name="Agree" id="Agree">
+                </td>
+                <td>
+                    <input type="radio" name="Strongly Agree" id="Strongly Agree">
+                </td>
+                
+            </tr>
+            <tr>
+                <th>The overall quality of the classes was excellent.</th>
+                <td>
+                    <input type="radio" name="Strongly Disagree" id="Strongly Disagree">
+                </td>
+                <td>
+                    <input type="radio" name="Disagree" id="Disagree">
+                </td>
+                <td>
+                    <input type="radio" name="Neutral" id="Neutral">
+                </td>
+                <td>
+                    <input type="radio" name="Agree" id="Agree">
+                </td>
+                <td>
+                    <input type="radio" name="Strongly Agree" id="Strongly Agree">
+                </td>
+                
+            </tr>
+            <tr>
+                <th>I would recommend these classes to other students.	</th>
+                <td>
+                    <input type="radio" name="Strongly Disagree" id="Strongly Disagree">
+                </td>
+                <td>
+                    <input type="radio" name="Disagree" id="Disagree">
+                </td>
+                <td>
+                    <input type="radio" name="Neutral" id="Neutral">
+                </td>
+                <td>
+                    <input type="radio" name="Agree" id="Agree">
+                </td>
+                <td>
+                    <input type="radio" name="Strongly Agree" id="Strongly Agree">
+                </td>
+                
+            </tr>
+
+        </tbody>
+        
+        
+    </table>
+
+    <!-- Materials tables  -->
+    <h3 class="heading-style">Materials</h3>
+
+    <table>
+        <tbody>
+            <thead>
+                <tr>
+                    <th class="none"><!-- Intentially left blank--></th>
+                    <th>Strongly Disagree</th>
+                    <th>Disagree</th>
+                    <th>Neutral</th>
+                    <th>Agree</th>
+                    <th>Strongly Agree</th>
+                </tr>
+
+            </thead>
+            
+            <tr>
+                <th>The objectives and requirements for the classes were clearly stated.	.</th>
+                <td>
+                    <label class="container">
+                        <input type="radio"  name="radio">
+                        <span class="checkmark"></span>
+                    </label>
+                    <!-- >>>>>>>>>>>>>>>>> -->
+                    
+                </td>
+                <td>
+                    <input type="radio" name="Disagree" id="Disagree">
+                </td>
+                <td>
+                    <input type="radio" name="Neutral" id="Neutral">
+                </td>
+                <td>
+                    <input type="radio" name="Agree" id="Agree">
+                </td>
+                <td>
+                    <input type="radio" name="Strongly Agree" id="Strongly Agree">
+                </td>
+                
+            </tr>
+            <tr>
+                <th>The textbooks and learning materials were relevant and useful.	</th>
+                <td>
+                    
+                        <input type="radio" name="radioGroup" id="radio2" class="styled-radio">
+                    
+                
+                </td>
+                <td>
+                    <input type="radio" name="Disagree" id="Disagree">
+                </td>
+                <td>
+                    <input type="radio" name="Neutral" id="Neutral">
+                </td>
+                <td>
+                    <input type="radio" name="Agree" id="Agree">
+                </td>
+                <td>
+                    <input type="radio" name="Strongly Agree" id="Strongly Agree">
+                </td>
+                
+            </tr>
+        
+            <tr>
+                <th>Tests and assignments were based on material covered in each class.	</th>
+                <td>
+                    <input type="radio" name="Strongly Disagree" id="Strongly Disagree">
+                </td>
+                <td>
+                    <input type="radio" name="Disagree" id="Disagree">
+                </td>
+                <td>
+                    <input type="radio" name="Neutral" id="Neutral">
+                </td>
+                <td>
+                    <input type="radio" name="Agree" id="Agree">
+                </td>
+                <td>
+                    <input type="radio" name="Strongly Agree" id="Strongly Agree">
+                </td>
+                
+            </tr>
+        
+
+        </tbody>
+        
+        
+    </table>
+    <!-- Instructions table -->
+    <h3 class="heading-style">Instruction</h3>
+
+    <table>
+        <tbody>
+            <thead>
+                <tr>
+                    <th class="none"><!-- Intentially left blank--></th>
+                    <th>Strongly Disagree</th>
+                    <th>Disagree</th>
+                    <th>Neutral</th>
+                    <th>Agree</th>
+                    <th>Strongly Agree</th>
+                </tr>
+
+            </thead>
+            
+            <tr>
+                <th>The instructors were qualified to teach these classes.		.</th>
+                <td>
+                    <label class="container">
+                        <input type="radio"  name="radio">
+                        <span class="checkmark"></span>
+                    </label>
+                    <!-- >>>>>>>>>>>>>>>>> -->
+                    
+                </td>
+                <td>
+                    <input type="radio" name="Disagree" id="Disagree">
+                </td>
+                <td>
+                    <input type="radio" name="Neutral" id="Neutral">
+                </td>
+                <td>
+                    <input type="radio" name="Agree" id="Agree">
+                </td>
+                <td>
+                    <input type="radio" name="Strongly Agree" id="Strongly Agree">
+                </td>
+                
+            </tr>
+            <tr>
+                <th>The instructors demonstrated enthusiasm for the subject matter.	</th>
+                <td>
+                    
+                        <input type="radio" name="radioGroup" id="radio2" class="styled-radio">
+                    
+                
+                </td>
+                <td>
+                    <input type="radio" name="Disagree" id="Disagree">
+                </td>
+                <td>
+                    <input type="radio" name="Neutral" id="Neutral">
+                </td>
+                <td>
+                    <input type="radio" name="Agree" id="Agree">
+                </td>
+                <td>
+                    <input type="radio" name="Strongly Agree" id="Strongly Agree">
+                </td>
+                
+            </tr>
+        
+            <tr>
+                <th>The instructors were available and helpful to students outside of class.	</th>
+                <td>
+                    <input type="radio" name="Strongly Disagree" id="Strongly Disagree">
+                </td>
+                <td>
+                    <input type="radio" name="Disagree" id="Disagree">
+                </td>
+                <td>
+                    <input type="radio" name="Neutral" id="Neutral">
+                </td>
+                <td>
+                    <input type="radio" name="Agree" id="Agree">
+                </td>
+                <td>
+                    <input type="radio" name="Strongly Agree" id="Strongly Agree">
+                </td>
+                
+            </tr>
+        
+
+        </tbody>
+        
+        
+    </table>
+    <!-- School environment -->
+    <h3 class="heading-style">School environment</h3>
+
+    <table>
+        <tbody>
+            <thead>
+                <tr>
+                    <th class="none"><!-- Intentially left blank--></th>
+                    <th>Strongly Disagree</th>
+                    <th>Disagree</th>
+                    <th>Neutral</th>
+                    <th>Agree</th>
+                    <th>Strongly Agree</th>
+                </tr>
+
+            </thead>
+            
+            <tr>
+                <th>The physical classroom environments were clean and comfortable.	</th>
+                <td>
+                    <label class="container">
+                        <input type="radio"  name="radio">
+                        <span class="checkmark"></span>
+                    </label>
+                    <!-- >>>>>>>>>>>>>>>>> -->
+                    
+                </td>
+                <td>
+                    <input type="radio" name="Disagree" id="Disagree">
+                </td>
+                <td>
+                    <input type="radio" name="Neutral" id="Neutral">
+                </td>
+                <td>
+                    <input type="radio" name="Agree" id="Agree">
+                </td>
+                <td>
+                    <input type="radio" name="Strongly Agree" id="Strongly Agree">
+                </td>
+                
+            </tr>
+            <tr>
+                <th>Library and on-site computers consistently made available.		</th>
+                <td>
+                    
+                        <input type="radio" name="radioGroup" id="radio2" class="styled-radio">
+                    
+                
+                </td>
+                <td>
+                    <input type="radio" name="Disagree" id="Disagree">
+                </td>
+                <td>
+                    <input type="radio" name="Neutral" id="Neutral">
+                </td>
+                <td>
+                    <input type="radio" name="Agree" id="Agree">
+                </td>
+                <td>
+                    <input type="radio" name="Strongly Agree" id="Strongly Agree">
+                </td>
+                
+            </tr>
+        
+            <tr>
+                <th>The common spaces were clean and comfortable.	</th>
+                <td>
+                    <input type="radio" name="Strongly Disagree" id="Strongly Disagree">
+                </td>
+                <td>
+                    <input type="radio" name="Disagree" id="Disagree">
+                </td>
+                <td>
+                    <input type="radio" name="Neutral" id="Neutral">
+                </td>
+                <td>
+                    <input type="radio" name="Agree" id="Agree">
+                </td>
+                <td>
+                    <input type="radio" name="Strongly Agree" id="Strongly Agree">
+                </td>
+                
+            </tr>
+            <tr>
+                <th>The school communicated institutional goals and relevant news to students.		</th>
+                <td>
+                    <input type="radio" name="Strongly Disagree" id="Strongly Disagree">
+                </td>
+                <td>
+                    <input type="radio" name="Disagree" id="Disagree">
+                </td>
+                <td>
+                    <input type="radio" name="Neutral" id="Neutral">
+                </td>
+                <td>
+                    <input type="radio" name="Agree" id="Agree">
+                </td>
+                <td>
+                    <input type="radio" name="Strongly Agree" id="Strongly Agree">
+                </td>
+                
+            </tr>
+        
+
+        </tbody>
+        
+        
+    </table>
+
+
+<div class="options-div">
+    <h3 class="heading-style  " >How likely are you to recommend our school to a friend or colleague?
+    </h3>
+    <input type="radio" name="Very Likely" id="Very Likely">
+    <label for="Very Likely">Very Likely</label> <br>
+
+    <input type="radio" name="Somewhat Likely" id="Somewhat Likely">
+    <label for="Somewhat Likely">Somewhat Likely</label> <br>
+
+    <input type="radio" name="Unsure" id="Unsure">
+    <label for="Unsure">Unsure</label> <br>
+
+    <input type="radio" name="Not very likely" id="Not Very Likely">
+    <label for="Not very likely">Not very likely</label> <br>
+
+    <input type="radio" name="Not  likely" id="Not likely">
+    <label for="Not likely">Not likely</label> <br>
+</div>
+<div class="textarea1 plus">
+    <label for="if-not-textarea" class="heading-style">If not Why?</label> <br>
+    <textarea name="if-not-textarea" id="if-not-textarea" cols="30" rows="10"></textarea>
+</div>
+
+<div class="textarea1 ">
+    <label for="level-satisfaction" class="heading-style">What could we do to increase your level of satisfaction?
+    </label> <br>
+    <textarea name="level-satisfaction" id="level-satisfaction" cols="30" rows="10"></textarea>
+</div>
+
+<div >
+    <label for="Additional-comments" class="heading-style">Additonal Comments
+    </label> <br>
+    <textarea name="Additional-comments" id="Additional-comments" cols="30" rows="10"></textarea>
+</div>
+
+
+<div class="btn">
+    <button type="submit">Submit</button>
+
+</div>
+</body>
+</html>
